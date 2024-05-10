@@ -284,3 +284,37 @@ footer a {
 
 
 /* ******************Responsive********************* */
+@media screen and (max-width: 800px) {
+
+    .main,
+    .header01,
+    .header02 {
+        display: block;
+        height: auto;
+    }
+
+    .right-parts-container {
+        height: 50vh;
+        margin-top: 30px;
+    }
+
+    .left-header01-container,
+    .header02-right-container {
+        display: none;
+    }
+
+    .header02-left-content-container {
+
+        margin: 50px auto;
+    }
+
+
+    footer ul {
+        min-width: 200px;
+    }
+
+    footer a {
+        width: 24px;
+        height: 24px;
+    }
+}
